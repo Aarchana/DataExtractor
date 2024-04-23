@@ -1,0 +1,16 @@
+client:
+  ip_validator:
+    host: http://localhost:8181
+spring:
+  application:
+    name: extractor
+  datasource:
+    url: jdbc:h2:mem:extractor
+    username: appuser
+    password: app@password
+    driver-class-name: org.h2.Driver
+    database-platform: org.hibernate.dialect.H2Dialect
+feature-flag:
+  enable-requester-validation: false
+wiremock:
+    port: 8181

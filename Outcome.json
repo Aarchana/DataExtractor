@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "18148426-89e1-11ee-b9d1-0242ac120002",
+    "id": "1X1D14",
+    "name": "John Smith",
+    "likes": "Likes Apricots",
+    "transport": "Rides A Bike",
+    "avgSpeed": 6.2,
+    "topSpeed": 12.1
+  },
+  {
+    "uuid": "3ce2d17b-e66a-4c1e-bca3-40eb1c9222c7",
+    "id": "2X2D24",
+    "name": "Mike Smith",
+    "likes": "Likes Grape",
+    "transport": "Drives an SUV",
+    "avgSpeed": 35.0,
+    "topSpeed": 95.5
+  },
+  {
+    "uuid": "1afb6f5d-a7c2-4311-a92d-974f3180ff5e",
+    "id": "3X3D35",
+    "name": "Jenny Walters",
+    "likes": "Likes Avocados",
+    "transport": "Rides A Scooter",
+    "avgSpeed": 8.5,
+    "topSpeed": 15.3
+  }
+]
