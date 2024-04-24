@@ -12,7 +12,7 @@ import static com.data.extractor.exception.AppErrorCode.INVALID_FILE_TYPE;
 import static com.data.extractor.util.FileValidator.isFileEmpty;
 import static com.data.extractor.util.FileValidator.isFileOfTypeText;
 
-public class RequestValidatedOutputGenerator extends DefaultOutputGenerator implements OutputFileGenerator {
+public class RequestValidatedOutputGenerator extends DefaultOutputGenerator {
 
     public RequestValidatedOutputGenerator(IpProcessor ipProcessor, RequestDetailsRecorder requestDetailsRecorder) {
         super(ipProcessor, requestDetailsRecorder);
